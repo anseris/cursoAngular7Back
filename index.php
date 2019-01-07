@@ -33,7 +33,7 @@ $app->get('/productos', function() use($db, $app){
     }
     $result=array(
         'status'    => 'succes',
-        'code'      => 404,
+        'code'      => 200,
         'data'      => $productos
     );
     echo json_encode($result);
